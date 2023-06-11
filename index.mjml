@@ -1,0 +1,274 @@
+<mjml>
+  <mj-head>
+    <mj-title>
+      Sams Club Newsletter Email
+    </mj-title>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      @media only screen and (max-width: 480px) {
+        .sponsors-header div {
+          padding: 20px 0 0;
+        }
+
+        .instacart {
+          padding-left: 10px !important;
+
+        }
+
+        .contact-free {
+          padding-right: 10px !important;
+        }
+      }
+
+      @media only screen and (max-width: 374px) {
+        .your-acc div {
+          width: 90% !important;
+          text-align: left !important;
+        }
+      }
+
+      @media only screen and (max-width: 285px) {
+        .your-acc div {
+          display: none;
+        }
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      .content-background {
+        background-color: #fff;
+      }
+    </mj-style>
+    <mj-attributes>
+      <mj-text font-family="Helvetica,
+Arial,
+sans-serif" />
+      <mj-image padding="0" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#fff">
+    <mj-wrapper css-class="content-background">
+      <mj-raw>
+        <!-- Header Logo -->
+      </mj-raw>
+      <mj-section padding-bottom="5px">
+        <mj-column padding="26px 0" border-bottom="1px solid lightgray">
+          <mj-image href="https://samsclub.com" alt="sams club logo" src="https://benjamingarcia.info/wp-content/uploads/2023/06/samslogo.png" width="212px" height="35px" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Header Text-->
+      </mj-raw>
+      <mj-section>
+        <mj-column background-color="#a4dbe8">
+          <mj-text font-size="13px" line-height="20px" font-weight="600" padding="10px 19px">
+            <a href="https:samsclub.com"> We're making your club safer. Learn the steps we're taking to help you shop with confidence. ➔</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Gift Card Image-->
+      </mj-raw>
+      <mj-section padding-bottom="5px">
+        <mj-column background-color="#a4dbe8">
+          <mj-image href="https://samsclub.com" alt="sams club gift card" src="https://benjamingarcia.info/wp-content/uploads/2023/06/giftcard.jpg" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Calendar Images-->
+      </mj-raw>
+      <mj-section padding-bottom="5px">
+        <mj-column>
+          <mj-image href="https://samsclub.com" alt="Savings Calendar Image" src="https://benjamingarcia.info/wp-content/uploads/2023/06/calendar.png"  />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Calendar Savigs Images-->
+      </mj-raw>
+      <mj-section padding-bottom="5px">
+        <mj-column>
+          <mj-image href="https://samsclub.com" alt="sams club gift card" src="https://benjamingarcia.info/wp-content/uploads/2023/06/savings.png"  />
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://samsclub.com" alt="sams club gift card" src="https://benjamingarcia.info/wp-content/uploads/2023/06/savings2.png"  />
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://samsclub.com" alt="sams club gift card" src="https://benjamingarcia.info/wp-content/uploads/2023/06/savings3.png"  />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Last Call Date Image-->
+      </mj-raw>
+      <mj-section padding-bottom="20px">
+        <mj-column>
+          <mj-image href="https://samsclub.com" alt="Last Date for Delivery Image" src="https://benjamingarcia.info/wp-content/uploads/2023/06/lastcall.png"  />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Instruction Image-->
+      </mj-raw>
+      <mj-section padding-top="10px">
+        <mj-column>
+          <mj-image href="https://samsclub.com" alt="Instruction Image" src="https://benjamingarcia.info/wp-content/uploads/2023/06/instruction.jpg"  />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Sponsors Header-->
+      </mj-raw>
+      <mj-section>
+        <mj-column width="30%">
+          <mj-divider padding="20px 0px 0 0px" border-width="1px" border-style="solid" border-color="lightgray" />
+        </mj-column>
+        <mj-column width="40%">
+          <mj-text css-class="sponsors-header" padding="0 10px" align="center" font-size="21px" line-height="21px" font-weight="400">
+            More From Our Sponsors
+          </mj-text>
+        </mj-column>
+        <mj-column width="30%">
+          <mj-divider padding="20px 0px 0 0px" border-width="1px" border-style="solid" border-color="lightgray" />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Pharmacy Image-->
+      </mj-raw>
+      <mj-section padding-bottom="20px">
+        <mj-column>
+          <mj-image href="https://samsclub.com" alt="Pharmacy" src="https://benjamingarcia.info/wp-content/uploads/2023/06/pharmacy.jpg"  />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- 2 Column Image-->
+      </mj-raw>
+      <mj-section padding-bottom="20px">
+        <mj-column css-class="instacart" padding-right="10px">
+          <mj-image href="https://samsclub.com" alt="Instacart" src="https://benjamingarcia.info/wp-content/uploads/2023/06/instacart.jpg"  />
+        </mj-column>
+        <mj-column css-class="contact-free" padding-left="10px">
+          <mj-image href="https://samsclub.com" alt="Contact Free Delivery" src="https://benjamingarcia.info/wp-content/uploads/2023/06/contactfree.jpg"  />
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- List Items-->
+      </mj-raw>
+      <mj-section padding-bottom="5px">
+        <mj-column border-bottom=" 1px solid lightgray">
+          <mj-text align="center" font-size="14px" line-height="14px" font-weight="600" padding-top="14px" padding-bottom="14px">
+            <a href="https:samsclub.com"> Grocery</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0" padding-bottom="5px">
+        <mj-column border-bottom=" 1px solid lightgray">
+          <mj-text align="center" font-size="14px" line-height="14px" font-weight="600" padding-bottom="14px">
+            <a href="https:samsclub.com"> Electronics</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0" padding-bottom="5px">
+        <mj-column border-bottom=" 1px solid lightgray">
+          <mj-text align="center" font-size="14px" line-height="14px" font-weight="600" padding-bottom="14px">
+            <a href="https:samsclub.com"> Furniture</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0" padding-bottom="5px">
+        <mj-column border-bottom=" 1px solid lightgray">
+          <mj-text align="center" font-size="14px" line-height="14px" font-weight="600" padding-bottom="14px">
+            <a href="https:samsclub.com">Outdoor & Patio</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0" padding-bottom="14px">
+        <mj-column>
+          <mj-text align="center" font-size="14px" line-height="14px" font-weight="600" padding-bottom="14px">
+            <a href="https:samsclub.com">New Items</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- Footer Header -->
+      </mj-raw>
+      <mj-section css-class="tablet-view" background-color="#f1f2ef" padding-bottom="0">
+        <mj-group width="400px">
+          <mj-column width="30%">
+            <mj-text padding-right="0" align="right">
+              Get the app
+            </mj-text>
+          </mj-column>
+          <mj-column width="8%">
+            <mj-image href="#" src="https://benjamingarcia.info/wp-content/uploads/2023/06/applelogo.png" width="18px" height="20px" align="center" padding-top="5px" />
+          </mj-column>
+          <mj-column width="8%">
+            <mj-image href="#" src="https://benjamingarcia.info/wp-content/uploads/2023/06/androidlogo.png" width="18px" height="20px" align="center" padding-top="5px" />
+          </mj-column>
+          <mj-column css-class="your-acc" width="27%">
+            <mj-text padding-right="0" align="right">
+              Your Account
+            </mj-text>
+          </mj-column>
+          <mj-column css-class="your-acc" width="27%">
+            <mj-text padding-left="0px" align="right">
+              Your Club
+            </mj-text>
+          </mj-column>
+
+        </mj-group>
+      </mj-section>
+      <mj-section padding-bottom="5px">
+        <mj-column>
+          <mj-text align="left" font-size="11px" line-height="16px" font-weight="400" padding-top="14px" padding-bottom="14px" color="#686868">
+            * Special Event Prices valid in U.S. clubs (except PR) with U.S. membership between Dec. 5, 2020 and Dec. 12, 2020. Prices shown are pre-tax. Pricing (including REG. pricing) & item availability may vary by location and in AK, HI, OK, PR, WI and at<a style="font-weight: bold;" href="https:samsclub.com"> SamsClub.com.</a> Sales tax may apply to pre-discount price. Online orders with in-club payment are subject to price available on payment date. No refunds if post-offer price is below zero. Only highest value discount will apply if more than one offer is available. Offers may not be combined. See <a style="font-weight: bold;" href="https:samsclub.com"> SamsClub.com/termsandconditions</a> or Club Associate for details. While supplies last. Sam's Club reserves the right to extend event pricing online and in club.
+          </mj-text>
+          <mj-image href="https://samsclub.com" alt="Footer" src="https://benjamingarcia.info/wp-content/uploads/2023/06/footer.jpg"  />
+          <mj-text align="left" font-size="11px" line-height="16px" font-weight="400"  color="#686868">
+
+            Sam's Club Member Services 2101 SE Simple Savings Drive, Bentonville, AR 72716-0745 ©2000–2020, Sam's Club Member Services. All rights reserved.
+          </mj-text>
+          <mj-text align="left" font-size="11px" line-height="16px" font-weight="400"  color="#686868">
+
+            <span style="font-weight: 700">ADVERTISING - PRODUCTS AND PRICING</span>
+            Sam’s Club ® Advertised Merchandise Policy – It is our firm intention to have every advertised item in stock, occasionally, items may not be available. We reserve the right to limit quantities and exclude resellers. We try to ensure that all information is accurate, but errors and omissions occur and are subject to correction. Pricing and item availability may vary by location, in Alaska, Hawaii, Oklahoma, Puerto Rico and Wisconsin, and on SamsClub.com. "Up to" savings range from zero to the maximized advertised amount. No rain checks.
+          </mj-text>
+          <mj-text align="left" font-size="11px" line-height="16px" font-weight="400"  color="#686868">
+
+            Privacy Policy and Terms & Conditions
+
+          </mj-text>
+          <mj-text align="left" font-size="11px" line-height="16px" font-weight="400"  color="#686868">
+
+            Sam’s Club wants to protect your security and privacy. Be assured that we will never ask for personal information (such as passwords or credit card numbers) in an email newsletter. If you receive such a request, please do not respond to that email. See our <a style="font-weight: 700;" href="https://samsclub.com"> Privacy Policy and Terms and Conditions</a> to learn more.
+
+          </mj-text>
+          <mj-text align="left" font-size="11px" line-height="16px" font-weight="400"  color="#686868">
+
+            For questions about returns and refunds, see our <a style="font-weight: 700;" href="https://samsclub.com"> Return / Refund Policy.</a>
+
+          </mj-text>
+          <mj-text align="left" font-size="11px" line-height="16px" font-weight="400"  color="#686868">
+
+            Having trouble viewing images? <a style="font-weight: 700; text-decoration: underline;" href="https://samsclub.com"> View this email on the web.</a>
+
+          </mj-text>
+          <mj-text align="left" font-size="11px" line-height="16px" font-weight="400"  color="#686868">
+
+            This email is a Sam’s Club advertisement. You have received this email as a Sam’s Club member or subscriber. If you do not want to receive these email updates,<a style="font-weight: 700; text-decoration: underline;" href="https://samsclub.com"> click here to unsubscribe.</a>
+
+          </mj-text>
+          <mj-text align="left" font-size="11px" line-height="16px" font-weight="400"  color="#686868">
+
+            Please understand that you may still receive emails from <span style="font-weight: 700">SamsClub.com</span> regarding order confirmations from our Website or for membership renewal information.
+
+          </mj-text>
+        </mj-column>
+      </mj-section>
+  </mj-body>
+  </mj-wrapper>
+</mjml>
